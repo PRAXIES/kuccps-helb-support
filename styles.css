@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+header {
+  background: linear-gradient(90deg, #36d1c4 0%, #5b86e5 100%);
+  color: white;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+  padding: 2rem;
+}
+.intro h2, .resources h2, .whatsapp h2, .faq h2 {
+  color: #5b86e5;
+}
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+.resources li {
+  margin: 0.5em 0;
+}
+.resources a {
+  color: #36d1c4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.resources a:hover {
+  color: #fda085;
+}
+.whatsapp {
+  text-align: center;
+  margin: 2em 0;
+}
+.whatsapp-link {
+  display: inline-block;
+  background: linear-gradient(90deg, #25D366 0%, #128C7E 100%);
+  color: white;
+  padding: 0.75em 2em;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 1em;
+  box-shadow: 0 2px 8px #36d1c4aa;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.whatsapp-link:hover {
+  background: linear-gradient(90deg, #128C7E 0%, #25D366 100%);
+  box-shadow: 0 4px 16px #5b86e566;
+}
+.faq ul {
+  list-style: none;
+  padding: 0;
+}
+.faq li {
+  margin-bottom: 1.5em;
+  background: #f6faff;
+  border-left: 4px solid #5b86e5;
+  padding: 1em;
+  border-radius: 6px;
+}
+footer {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(90deg, #36d1c4 0%, #5b86e5 100%);
+  padding: 1.5em 1em 1em 1em;
+  margin-top: 2em;
+  font-size: 1em;
+}
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+@media (max-width: 800px) {
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
